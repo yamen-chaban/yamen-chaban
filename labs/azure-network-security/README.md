@@ -24,6 +24,25 @@ node --test network.test.cjs
 
 Die Tests prüfen Struktur, Adressbereiche, Prioritäten und ausgewählte eingehende IPv4-Flüsse. Sie bilden **nicht** die vollständige Azure-NSG-Auswertung (z. B. zustandsbehaftete Flows, NIC-NSGs, Service Tags, Routing, Outbound oder Security Admin Rules) nach. Keine öffentliche IP und keine VM enthalten. Kein tatsächlicher Netzwerkverkehr.
 
+## Lokaler Testnachweis (24.11.2026)
+
+Die auf GitHub gespeicherten Dateien wurden auf einem Windows-PC mit Node.js v24.22.3 durch den Assistenten ausgeführt. Ergebnis: 10 Tests, 10 erfolgreich, 0 fehlgeschlagen. Getestete Vorlagen-/Testdateien: Stand Commit `89c811a1b19ad22b97a1a7b8ef8d72f92254272a`.
+
+| Prüfung | Ergebnis |
+|---|---|
+| NSG-Zuordnung und Abhängigkeit | PASS |
+| Adressbereiche und Subnetze | PASS |
+| Prioritäten | PASS |
+| Management → App: TCP 443 | Allow |
+| Management → App: TCP 22 | Deny |
+| Management → App: TCP 3389 | Deny |
+| Anderes Subnetz → App: TCP 443 | Deny |
+| Externe Beispieladresse → App: TCP 443 | Deny |
+| Management → App: UDP 443 | Deny |
+| Keine VM- oder Public-IP-Ressourcen | PASS |
+
+Dies ist ein durch den Assistenten ausgeführter Offline-Test des Lernprototyps, kein Nachweis einer eigenen Azure-Praxisausführung oder einer Azure-seitigen Vorlagenvalidierung.
+
 ## Nächste eigene Übungen
 1. Vorlage und Regeln nachvollziehen; eigene Testfälle ergänzen.
 2. Mit ausdrücklicher Freigabe in einer eigenen Testumgebung ARM-Validierung und What-if ausführen. Diese Offline-Tests ersetzen keine Azure-Validierung.
