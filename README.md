@@ -12,7 +12,7 @@ Junior IT-Systemadministrator · IT Support / 2nd Level · Modern Workplace · C
 
 [![Public portfolio](https://img.shields.io/badge/Public%20portfolio-Endpoint%20Compliance-087c91?style=flat-square)](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab) ![Approach](https://img.shields.io/badge/Approach-Documented%20labs-334155?style=flat-square)
 
-[**Personal portfolio (Deutsch)**](https://yamen-chaban.github.io/yamen-chaban/) · [**LinkedIn**](https://www.linkedin.com/in/yamen-chaban/)
+[**Personal portfolio (Deutsch)**](https://yamen-chaban.github.io/yamen-chaban/) · [**Kurzprofil / PDF**](https://yamen-chaban.github.io/yamen-chaban/kurzprofil.html) · [**LinkedIn**](https://www.linkedin.com/in/yamen-chaban/)
 
 </div>
 
