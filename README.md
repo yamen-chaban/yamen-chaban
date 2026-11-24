@@ -79,7 +79,7 @@ A reproducible PowerShell project that evaluates **synthetic** Windows device in
 
 - Publish a **sanitized Intune RBAC case study** when evidence is ready for public release.
 - Expand **PowerShell inventory/reporting** with additional edge-case tests.
-- Add reproducible **Azure and networking** labs.
+- [Azure Network Security Lab – AI-assisted learning prototype](labs/azure-network-security/README.md): ARM template and 10 successful offline checks executed by the assistant; own hands-on Azure validation and deployment remain pending. Not a completed personal Azure case study.
 
 Roadmap items are plans, **not** completed or publicly accessible projects.
 
