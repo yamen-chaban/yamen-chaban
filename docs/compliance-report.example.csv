@@ -1,0 +1,6 @@
+"DeviceName","OSBuild","BitLockerEnabled","DefenderEnabled","FirewallEnabled","ComplianceStatus","Findings"
+"LAB-PC-01","22631","True","True","True","Compliant","No baseline findings"
+"LAB-PC-02","26100","True","True","True","Compliant","No baseline findings"
+"LAB-PC-03","22631","False","True","True","NonCompliant","BitLocker disabled"
+"LAB-PC-04","26100","True","False","True","NonCompliant","Defender disabled"
+"LAB-PC-05","22000","True","True","False","NonCompliant","OS build below baseline (22631); Firewall disabled"
