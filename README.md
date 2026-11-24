@@ -79,11 +79,11 @@ A reproducible PowerShell project that evaluates **synthetic** Windows device in
 
 ## Portfolio roadmap
 
-- Publish a **sanitized Intune RBAC case study** when evidence is ready for public release.
+- [Intune RBAC – anonymisierte Fallstudie](https://yamen-chaban.github.io/yamen-chaban/intune-rbac.html): L1 read, denied Create attempt, L2 description update and rollback; private original evidence, no production deployment. Further sanitized evidence only after approval.
 - Expand **PowerShell inventory/reporting** with additional edge-case tests.
 - [Azure Network Security Lab – AI-assisted learning prototype](labs/azure-network-security/README.md): ARM template and 10 successful offline checks executed by the assistant; own hands-on Azure validation and deployment remain pending. Not a completed personal Azure case study.
 
-The Azure prototype is publicly inspectable, but is **not** evidence of a completed hands-on Azure deployment. The remaining roadmap entries are planned work, not completed projects.
+The Azure prototype is publicly inspectable, but is **not** evidence of a completed hands-on Azure deployment. Additional roadmap items are planned work, not completed projects.
 
 ---
 
