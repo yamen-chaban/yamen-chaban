@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "type": "string",
+      "defaultValue": "[resourceGroup().location]"
+    }
+  },
+  "resources": [
+    {
+      "type": "Microsoft.Network/networkSecurityGroups",
+      "apiVersion": "2024-01-01",
+      "name": "nsg-app-lab",
+      "location": "[parameters('location')]",
+      "properties": {
+        "securityRules": [
+          {
+            "name": "Allow-Management-HTTPS",
+            "properties": {
+              "priority": 100,
+              "access": "Allow",
+              "protocol": "Tcp",
+              "direction": "Inbound",
+              "sourceAddressPrefix": "10.42.1.0/24",
+              "destinationAddressPrefix": "10.42.2.0/24",
+              "sourcePortRange": "*",
+              "destinationPortRange": "443"
+            }
+          },
+          {
+            "name": "Deny-Other-Inbound",
+            "properties": {
+              "priority": 200,
+              "access": "Deny",
+              "protocol": "*",
+              "direction": "Inbound",
+              "sourceAddressPrefix": "*",
+              "destinationAddressPrefix": "*",
+              "sourcePortRange": "*",
+              "destinationPortRange": "*"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Microsoft.Network/virtualNetworks",
+      "apiVersion": "2024-05-01",
+      "name": "vnet-security-lab",
+      "location": "[parameters('location')]",
+      "dependsOn": [
+        "[resourceId('Microsoft.Network/networkSecurityGroups','nsg-app-lab')]"
+      ],
+      "properties": {
+        "addressSpace": {
+          "addressPrefixes": [
+            "10.42.0.0/16"
+          ]
+        },
+        "subnets": [
+          {
+            "name": "snet-management",
+            "properties": {
+              "addressPrefix": "10.42.1.0/24"
+            }
+          },
+          {
+            "name": "snet-app",
+            "properties": {
+              "addressPrefix": "10.42.2.0/24",
+              "networkSecurityGroup": {
+                "id": "[resourceId('Microsoft.Network/networkSecurityGroups','nsg-app-lab')]"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
