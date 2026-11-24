@@ -46,7 +46,7 @@ A reproducible PowerShell project that evaluates **synthetic** Windows device in
 
 **Inspect the work:** [script](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/blob/main/scripts/Get-EndpointComplianceReport.ps1) · [smoke test](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/blob/main/tests/Test-EndpointComplianceReport.ps1) · [architecture](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/blob/main/docs/architecture.md) · [test workflow](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/actions/workflows/tests.yml)
 
-> **Project boundary:** This is a training simulation, **not** a production deployment or live Intune integration. Review the GitHub Actions run history for verified CI status.
+> **Project boundary:** This is a training simulation, **not** a production deployment or live Intune integration. The GitHub Actions smoke test on 23 November 2026 succeeded: five synthetic devices, two compliant, three noncompliant. [Verified CI run](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/actions/runs/45266467933). Evidence applies to the tested commit.
 
 ## How I work
 
