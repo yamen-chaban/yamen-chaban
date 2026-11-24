@@ -12,7 +12,7 @@ Junior IT-Systemadministrator · IT Support / 2nd Level · Modern Workplace · C
 
 [![Public portfolio](https://img.shields.io/badge/Public%20portfolio-Endpoint%20Compliance-087c91?style=flat-square)](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab) ![Approach](https://img.shields.io/badge/Approach-Documented%20labs-334155?style=flat-square)
 
-[**Personal portfolio (Deutsch)**](https://yamen-chaban.github.io/yamen-chaban/) · [**Kurzprofil / PDF**](https://yamen-chaban.github.io/yamen-chaban/kurzprofil.html) · [**LinkedIn**](https://www.linkedin.com/in/yamen-chaban/)
+[**Personal portfolio (Deutsch)**](https://yamen-chaban.github.io/yamen-chaban/) · [**Kurzprofil / Druckversion**](https://yamen-chaban.github.io/yamen-chaban/kurzprofil.html) · [**LinkedIn**](https://www.linkedin.com/in/yamen-chaban/)
 
 </div>
 
@@ -54,6 +54,8 @@ Ich suche aktiv eine Festanstellung im IT-Support oder in der Junior IT-Systemad
 
 A reproducible PowerShell project that evaluates **synthetic** Windows device inventory against a configurable demonstration baseline: OS build, BitLocker, Microsoft Defender and Firewall. It produces a CSV report with specific findings for IT support.
 
+**Recruiter-friendly evidence:** [German case study](https://yamen-chaban.github.io/yamen-chaban/endpoint-compliance.html) · [Synthetic CSV example](https://yamen-chaban.github.io/yamen-chaban/compliance-report.example.csv)
+
 **Inspect the work:** [script](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/blob/main/scripts/Get-EndpointComplianceReport.ps1) · [smoke test](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/blob/main/tests/Test-EndpointComplianceReport.ps1) · [architecture](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/blob/main/docs/architecture.md) · [test workflow](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/actions/workflows/tests.yml)
 
 > **Project boundary:** This is a training simulation, **not** a production deployment or live Intune integration. The GitHub Actions smoke test on 23 November 2026 succeeded: five synthetic devices, two compliant, three noncompliant. [Verified CI run](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/actions/runs/45266467933). Evidence applies to the tested commit.
@@ -81,7 +83,7 @@ A reproducible PowerShell project that evaluates **synthetic** Windows device in
 - Expand **PowerShell inventory/reporting** with additional edge-case tests.
 - [Azure Network Security Lab – AI-assisted learning prototype](labs/azure-network-security/README.md): ARM template and 10 successful offline checks executed by the assistant; own hands-on Azure validation and deployment remain pending. Not a completed personal Azure case study.
 
-Roadmap items are plans, **not** completed or publicly accessible projects.
+The Azure prototype is publicly inspectable, but is **not** evidence of a completed hands-on Azure deployment. The remaining roadmap entries are planned work, not completed projects.
 
 ---
 
