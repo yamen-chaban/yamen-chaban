@@ -2,9 +2,13 @@
 
 <img src="https://raw.githubusercontent.com/yamen-chaban/enterprise-endpoint-compliance-lab/main/assets/yamen-profile-hero.svg" width="100%" alt="Yamen Chaban - Windows administration, PowerShell, Cloud"/>
 
-# Hello, I’m Yamen 👋
+# Yamen Chaban
 
-**IT Support · Systems Administration · Windows Endpoint Management · Cloud Fundamentals**
+**IT Support · IT-Systemadministration · Microsoft Intune · Azure · PowerShell**
+
+**Open to work / Aktiv auf Stellensuche — Berlin & Brandenburg**
+
+Junior IT-Systemadministrator · IT Support / 2nd Level · Modern Workplace · Cloud Support
 
 [![Public portfolio](https://img.shields.io/badge/Public%20portfolio-Endpoint%20Compliance-087c91?style=flat-square)](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab) ![Approach](https://img.shields.io/badge/Approach-Documented%20labs-334155?style=flat-square)
 
@@ -14,9 +18,15 @@
 
 ## About me
 
-I’m an IT professional with experience in technical support and software development and an **M.Sc. in Informatics**. My current focus is **Windows endpoint administration, Microsoft Intune concepts, PowerShell automation, Microsoft 365, networking, and Azure fundamentals**.
+I’m an IT professional with several years of IT support and software development experience and an **Informatics degree at German master's level (ZAB assessment; original degree: inženýr)**. My professional background includes documented responsibility for a computer department. My current focus is **Windows endpoint administration, Microsoft Intune concepts, PowerShell automation, Microsoft 365, networking, and Azure fundamentals**.
 
 This profile is a practical portfolio: reproducible labs, documented decisions, honest constraints, and code you can inspect. My public work deliberately separates **tested evidence**, **sample data**, and **future plans**.
+
+## Für Arbeitgeber / For hiring teams
+
+Ich suche aktiv eine Festanstellung im IT-Support oder in der Junior IT-Systemadministration in Berlin und Brandenburg. Aktuelle Vollzeitweiterbildung bei alfatraining: Microsoft Endpoint Administration, Azure Administration und Netzwerkadministration (geplant bis 22.01.2027). Deutsch B2 (telc), Englisch in beruflicher Anwendung, Arabisch als Muttersprache. Zeugnisse und Lebenslauf auf Anfrage.
+
+**[Beruflicher Kontakt über LinkedIn](https://www.linkedin.com/in/yamen-chaban/) · [Portfolio mit Projektnachweisen](https://yamen-chaban.github.io/yamen-chaban/)**
 
 ## Technical focus
 
@@ -47,6 +57,15 @@ A reproducible PowerShell project that evaluates **synthetic** Windows device in
 **Inspect the work:** [script](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/blob/main/scripts/Get-EndpointComplianceReport.ps1) · [smoke test](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/blob/main/tests/Test-EndpointComplianceReport.ps1) · [architecture](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/blob/main/docs/architecture.md) · [test workflow](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/actions/workflows/tests.yml)
 
 > **Project boundary:** This is a training simulation, **not** a production deployment or live Intune integration. The GitHub Actions smoke test on 23 November 2026 succeeded: five synthetic devices, two compliant, three noncompliant. [Verified CI run](https://github.com/yamen-chaban/enterprise-endpoint-compliance-lab/actions/runs/45266467933). Evidence applies to the tested commit.
+
+## Selected professional experience
+
+| Period | Experience |
+| --- | --- |
+| 2013–2021 | IT helpdesk and computer department responsibility, Homs (responsibility documented in 2017; dates per CV) |
+| 2021–2022 | IT support technician |
+| 2022–2024 | Web development |
+| Since October 2025 | Voluntary support with digital everyday topics at Caritas, Strausberg |
 
 ## How I work
 
